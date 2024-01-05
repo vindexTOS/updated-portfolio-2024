@@ -547,7 +547,8 @@ export const Project: ProjectItemType[] = [
     git: 'https://github.com/vindexTOS/gios-gym',
 
     imgs: [
-      imgdata.maingym,
+      'https://firebasestorage.googleapis.com/v0/b/img-upload-7d368.appspot.com/o/portfoliophotos%2Fquizz%2Fquizz2.webp?alt=media&token=ab9c64fc-678c-446f-af5f-6c74247c8c9f',
+      // imgdata.maingym,
       // imgdata.cart,
       // imgdata.contacnt,
       // imgdata.billing,
