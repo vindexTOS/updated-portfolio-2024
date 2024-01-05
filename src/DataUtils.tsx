@@ -548,11 +548,11 @@ export const Project: ProjectItemType[] = [
 
     imgs: [
       imgdata.maingym,
-      imgdata.cart,
-      imgdata.contacnt,
-      imgdata.billing,
-      imgdata.shippinggym,
-      imgdata.singleproductgym,
+      // imgdata.cart,
+      // imgdata.contacnt,
+      // imgdata.billing,
+      // imgdata.shippinggym,
+      // imgdata.singleproductgym,
     ],
     icons: [
       <FaReact className="text-blue-400" />,
