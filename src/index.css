@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Fruktur&family=Khula&family=Staatliches&family=Tillana&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  user-select: none;
+}
+.aboutParagraph {
+  font-family: 'Kanit', sans-serif;
+}
+
+.displayGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 26rem));
+  gap: 50px;
+}
+
+.bg-img {
+  background-image: url('./assets/background//background1.webp');
+
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+/* .bg-purple-img {
+  background-image: url('./assets/background/purpleLay.jpg');
+
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+} */
+.bg-section-purple {
+  background-image: url('./assets/background/blueBg.jpg');
+
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.bg-aboutBg-purple {
+  background-image: url('./assets/background/aboutBG.jpg');
+
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.bg-projectBg-purple {
+  background-image: url('./assets/background/purpleProject.jpg');
+
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.bg-skills-purple {
+  background-image: url('./assets/background/skillspurplebg.jpg');
+
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.zindex {
+  z-index: 100000;
+}
+.textshaddow {
+  text-shadow: 0px 0px 3px rgba(255, 0, 0, 1);
+}
+.blacktextshaddow {
+  text-shadow: 1px 2px 0px rgb(0, 0, 0);
+}
+.generalBoxShaddow {
+  box-shadow: 3px 4px 5px -4px rgba(0, 0, 0, 0.74);
+  -webkit-box-shadow: 3px 4px 5px -4px rgba(0, 0, 0, 0.74);
+  -moz-box-shadow: 3px 4px 5px -4px rgba(0, 0, 0, 0.74);
+}
+.boxShaddow {
+  box-shadow: 2px -3px 0px 0px #a74318;
+  -webkit-box-shadow: 2px -3px 0px 0px #a74318;
+  -moz-box-shadow: 2px -3px 0px 0px #a74318;
+}
+
+.cardBoxShaddow {
+  box-shadow: 0px 0px 0px 2px rgba(167, 67, 24, 1);
+  -webkit-box-shadow: 0px 0px 0px 2px rgba(167, 67, 24, 1);
+  -moz-box-shadow: 0px 0px 0px 2px rgba(167, 67, 24, 1);
+}
+.cardBoxShaddow:hover {
+  box-shadow: 0px 0px 9px 2px rgb(236, 116, 65);
+  -webkit-box-shadow: 0px 0px 9px 2px rgb(236, 116, 65);
+  -moz-box-shadow: 0px 0px 9px 2px rgb(236, 116, 65);
+}
+
+.cardBoxOn {
+  box-shadow: 0px 0px 11px 5px rgb(236, 116, 65);
+  -webkit-box-shadow: 0px 0px 11px 5px rgb(236, 116, 65);
+  -moz-box-shadow: 0px 0px 11px 5px rgb(236, 116, 65);
+}
+
+.menuBoxShaddowPurple {
+  box-shadow: 0px -10px 17px 0px rgba(249, 78, 165, 0.89);
+  -webkit-box-shadow: 0px -10px 17px 0px rgba(249, 78, 165, 0.89);
+  -moz-box-shadow: 0px -10px 17px 0px rgba(249, 78, 165, 0.89);
+}
+.cardBoxShaddowPurple {
+  box-shadow: 0px 0px 9px 2px #f94ea5;
+  -webkit-box-shadow: 0px 0px 9px 2px #f94ea5;
+  -moz-box-shadow: 0px 0px 9px 2px #f94ea5;
+}
+
+.cardBoxShaddowPurple:hover {
+  box-shadow: 0px 0px 16px 3px rgba(249, 78, 165, 1);
+  -webkit-box-shadow: 0px 0px 16px 3px rgba(249, 78, 165, 1);
+  -moz-box-shadow: 0px 0px 16px 3px rgba(249, 78, 165, 1);
+}
+
+.cardBoxOnPurple {
+  box-shadow: 0px 0px 11px 5px #f94ea5;
+  -webkit-box-shadow: 0px 0px 11px 5px #f94ea5;
+  -moz-box-shadow: 0px 0px 11px 5px #f94ea5;
+}
+
+.purpleBackground {
+  background: rgb(62, 0, 94);
+  background: linear-gradient(
+    129deg,
+    rgba(62, 0, 94, 1) 0%,
+    rgba(0, 203, 187, 1) 100%
+  );
+}
+
+.projectPFont {
+  font-family: 'Tillana', cursive;
+}
+
+.projectHeader {
+  font-family: 'Tillana', cursive;
+}
+
+.folderFont {
+  font-family: 'Khula', sans-serif;
+}
+
+.folderHeader {
+  font-family: 'Cinzel Decorative', cursive;
+}
